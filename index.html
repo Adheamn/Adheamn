@@ -1,19 +1,114 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>Toko Bayi Pro</title>
-<link rel="stylesheet" href="style.css"></head>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Adheamin POS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<div id="login">
-<h2>Login</h2>
-<input id="user" placeholder="admin">
-<input id="pass" type="password" placeholder="123456">
-<button onclick="login()">Masuk</button>
-</div>
 
-<div id="app" style="display:none">
-<h1>Toko Perawatan Bayi</h1>
-<p>Dashboard, stok, penjualan, dan laporan sederhana.</p>
-<button onclick="logout()">Logout</button>
-<div id="content"></div>
-</div>
+<header>
+  <img src="logo.png" alt="Logo Adheamin" class="logo">
+  <h1>Adheamin</h1>
+  <p>Sistem Monitoring Stok & Penjualan</p>
+</header>
+
+<section class="card">
+  <h2>🏪 Informasi Toko</h2>
+  <ul>
+    <li><strong>Alamat:</strong> Jl. Contoh No. 123, Indonesia</li>
+    <li><strong>No WhatsApp Struk:</strong> 0812-3456-7890</li>
+    <li><strong>Pajak (PPN):</strong> Aktif</li>
+    <li><strong>Metode Pembayaran:</strong> Cash, QRIS</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>🧑‍💼 SOP TOKO (REAL USE)</h2>
+  <ol>
+    <li>Buka toko</li>
+    <li>Cek dashboard stok & penjualan</li>
+    <li>Kasir login</li>
+    <li>Melakukan penjualan</li>
+    <li>Pembayaran Cash / QRIS</li>
+    <li>Tutup kas</li>
+    <li>Owner cek laporan</li>
+  </ol>
+</section>
+
+<section class="card">
+  <h2>📦 Strategi Produk</h2>
+
+  <div class="strategy">
+    <h3>🅰️ Private App (1 Toko / 1 Klien)</h3>
+    <p><strong>Harga:</strong> Rp3 – 10 Juta</p>
+    <ul>
+      <li>Setup + Training</li>
+      <li>Tanpa subscription</li>
+      <li>Support opsional</li>
+    </ul>
+    <p class="highlight">✔ Cepat closing & simple</p>
+  </div>
+
+  <div class="strategy">
+    <h3>🅱️ Lisensi Bulanan</h3>
+    <p><strong>Harga:</strong> Rp99.000 – Rp199.000 / bulan</p>
+    <ul>
+      <li>Update sistem</li>
+      <li>Support WhatsApp</li>
+      <li>Hosting di server pengelola</li>
+    </ul>
+    <p class="highlight">✔ Income rutin & mudah scale</p>
+  </div>
+
+  <div class="strategy">
+    <h3>🅾️ SaaS POS (Skala Besar)</h3>
+    <ul>
+      <li>Multi toko</li>
+      <li>Trial 14 hari</li>
+      <li>Domain publik</li>
+      <li>Payment otomatis</li>
+    </ul>
+    <p class="highlight">💡 Sistem sudah 90% siap ke arah ini</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>📄 Dokumen Wajib</h2>
+  <ul>
+    <li>EULA (Perjanjian Lisensi)</li>
+    <li>Syarat & Ketentuan</li>
+    <li>Kebijakan Privasi</li>
+    <li>Template Invoice</li>
+    <li>Manual Kasir (PDF)</li>
+  </ul>
+  <p class="note">Dokumen ini meningkatkan kepercayaan klien & profesionalitas.</p>
+</section>
+
+<section class="card">
+  <h2>📱 Distribusi Aplikasi</h2>
+  <ul>
+    <li><strong>Web Admin:</strong> Domain toko + SSL + Login Owner</li>
+    <li><strong>Mobile Kasir:</strong> APK private / Play Store (opsional)</li>
+    <li><strong>Perangkat:</strong> Tablet friendly</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>🧾 Legal & Payment</h2>
+  <ul>
+    <li>QRIS via Midtrans</li>
+    <li>Settlement otomatis</li>
+    <li>Histori transaksi aman</li>
+    <li>Siap diaudit</li>
+  </ul>
+</section>
+
+<footer>
+  <p>✅ POS & Stok Profesional</p>
+  <p>© 2026 Adheamin</p>
+</footer>
+
 <script src="app.js"></script>
-</body></html>
+</body>
+</html>

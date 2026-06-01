@@ -1,1 +1,56 @@
-body{font-family:Arial;padding:20px}input{display:block;margin:5px 0;padding:8px}button{padding:8px 12px}
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+}
+
+header {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #111827;
+}
+
+.strategy {
+  border-left: 4px solid #2563eb;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.note {
+  color: #6b7280;
+  font-style: italic;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e5e7eb;
+  color: #374151;
+}
